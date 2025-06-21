@@ -37,17 +37,17 @@ curl -X POST 'http://127.0.0.1:8000/query' \
 ## 📦 Dependencies
 
 langchain<br>
-langchain-community
-langchain-huggingface
-transformers
-sentence-transformers
-faiss-cpu
-fastapi
-uvicorn
+langchain-community<br>
+langchain-huggingface<br>
+transformers<br>
+sentence-transformers<br>
+faiss-cpu<br>
+fastapi<br>
+uvicorn<br>
 
 ---
 
-##💡 Future Enhancements
+## 💡 Future Enhancements
 
 -Agent-based querying with tool-use
 -Chat history and follow-up questions
