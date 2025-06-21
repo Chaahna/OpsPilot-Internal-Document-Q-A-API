@@ -2,7 +2,8 @@
 This project is a local retrieval-augmented question answering (RAG) system built with LangChain, HuggingFace, and FastAPI. It allows users to query internal documents like IT policies, FAQs, and handbooks through a simple API.
 
 
-🚀 Features
+🚀 Features 
+<br>
 📂 Loads and indexes Markdown and PDF documents
 
 🧠 Embeds documents using all-MiniLM-L6-v2 via HuggingFace
@@ -17,12 +18,13 @@ This project is a local retrieval-augmented question answering (RAG) system buil
 bash
 Copy
 Edit
-├── app/
-│   ├── main.py            # FastAPI app
-│   ├── vectorstore/       # FAISS index
-│   └── data/              # Internal .md and .pdf files
-├── requirements.txt
-└── README.md
+├── app/ <br>
+│   ├── main.py            # FastAPI app<br>
+│   ├── vectorstore/       # FAISS index<br>
+│   └── data/              # Internal .md and .pdf files<br>
+├── requirements.txt<br>
+└── README.md<br>
+
 ⚙️ How It Works
 Embeds all .md and .pdf files into vectors.
 
