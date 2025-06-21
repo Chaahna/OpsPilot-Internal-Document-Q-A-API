@@ -14,5 +14,39 @@ This project is a **local retrieval-augmented question answering (RAG) system** 
 
 ---
 
-## 📁 Project Structure
 
+## ⚙️ How It Works
+
+1. Embeds all `.md` and `.pdf` files into vectors using HuggingFace embeddings.
+2. Stores them in a FAISS index.
+3. On a query, the top-k relevant chunks are retrieved.
+4. A HuggingFace-hosted LLM generates an answer using those chunks.
+
+---
+
+## 🧪 Example Query
+
+```bash
+curl -X POST 'http://127.0.0.1:8000/query' \
+-H 'accept: application/json' \
+-H 'Content-Type: application/json' \
+-d '{ "query": "What is our leave policy?" }'
+
+---
+
+📦 Dependencies
+langchain<br>
+
+langchain-community
+
+langchain-huggingface
+
+transformers
+
+sentence-transformers
+
+faiss-cpu
+
+fastapi
+
+uvicorn
