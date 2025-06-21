@@ -49,6 +49,6 @@ uvicorn<br>
 
 ## 💡 Future Enhancements
 
--Agent-based querying with tool-use
--Chat history and follow-up questions
--Frontend UI integration (e.g., Streamlit or React)
+-Agent-based querying with tool-use<br>
+-Chat history and follow-up questions<br>
+-Frontend UI integration (e.g., Streamlit or React)<br>
