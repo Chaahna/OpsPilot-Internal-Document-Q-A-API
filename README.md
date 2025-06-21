@@ -34,7 +34,7 @@ curl -X POST 'http://127.0.0.1:8000/query' \
 
 ---
 
-📦 Dependencies
+##📦 Dependencies
 langchain<br>
 
 langchain-community
@@ -50,3 +50,11 @@ faiss-cpu
 fastapi
 
 uvicorn
+
+---
+
+##💡 Future Enhancements
+
+-Agent-based querying with tool-use
+-Chat history and follow-up questions
+-Frontend UI integration (e.g., Streamlit or React)
